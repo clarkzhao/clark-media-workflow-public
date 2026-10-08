@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "path_base": "repository root",
+  "platform": "windows-amd64",
+  "payload_policy": "Installed binaries, environments and wheels remain local and are excluded from Git.",
+  "verification_scope": "Key file hashes and version commands; not a complete rendering or quality acceptance.",
+  "components": [
+    {
+      "id": "nvencc",
+      "version": "9.37 r4165",
+      "entry": "nvencc_9.37/NVEncC64.exe",
+      "version_args": [
+        "--version"
+      ],
+      "requirements": "Windows AMD64; compatible NVIDIA GPU/driver for encoding and NGX VSR; no automatic downloads.",
+      "provenance": "Reference installation inventory; verify local files before use. Binaries are not distributed.",
+      "verified_files": [
+        {
+          "path": "nvencc_9.37/NVEncC64.exe",
+          "bytes": 216462336,
+          "sha256": "63a7307dd47bee75613c71c885051f090d3cb9762f8cd13e2750de2209414ac4"
+        },
+        {
+          "path": "nvencc_9.37/nvngx_vsr.dll",
+          "bytes": 59120752,
+          "sha256": "3ed97a8f5dd0afd5ceb9e98b3fa9a868a134f74103b3747e9765595606c3f509"
+        },
+        {
+          "path": "nvencc_9.37/NVEncNVSDKNGX.dll",
+          "bytes": 378880,
+          "sha256": "39fb1a1692c7670866ec0363421bc54b65bca22e92a93bb8b95cbe2f826bf6f9"
+        }
+      ]
+    },
+    {
+      "id": "ffmpeg",
+      "version": "n9.0.2-12-gc867e13549",
+      "entry": "shotcut/Shotcut/ffmpeg.exe",
+      "version_args": [
+        "-version"
+      ],
+      "requirements": "Preserve the complete local Shotcut dependency tree.",
+      "provenance": "Reference installation inventory; verify local files before use. Binaries are not distributed.",
+      "verified_files": [
+        {
+          "path": "shotcut/Shotcut/ffmpeg.exe",
+          "bytes": 474728,
+          "sha256": "758d59d366941063a060a50ce84130a83eae81e8c12ebf89d4c8d14bbaec53db"
+        }
+      ]
+    },
+    {
+      "id": "ffprobe",
+      "version": "n9.0.2-12-gc867e13549",
+      "entry": "shotcut/Shotcut/ffprobe.exe",
+      "version_args": [
+        "-version"
+      ],
+      "requirements": "Preserve the complete local Shotcut dependency tree.",
+      "provenance": "Reference installation inventory; verify local files before use. Binaries are not distributed.",
+      "verified_files": [
+        {
+          "path": "shotcut/Shotcut/ffprobe.exe",
+          "bytes": 226408,
+          "sha256": "10aa04a26399515fcc96310fd904efae46b1092bed795df8ef8e54acf05d097c"
+        }
+      ]
+    },
+    {
+      "id": "pillow-heif",
+      "version": "1.8.0; libheif 1.23.4",
+      "entry": "photo_python/pillow_heif/__init__.py",
+      "requirements": "CPython 3.13 Windows AMD64 with Pillow. This directory is an extension library, not an interpreter.",
+      "provenance": "Reference installation inventory; verify local files before use. Binaries are not distributed.",
+      "verified_files": [
+        {
+          "path": "photo_python/_pillow_heif.cp313-win_amd64.pyd",
+          "bytes": 59904,
+          "sha256": "bbcd0579b4c30046755c0b2928b59187b38ce6de9691593af0eb568ceb7ee57e"
+        },
+        {
+          "path": "photo_python/pillow_heif/__init__.py",
+          "bytes": 1497,
+          "sha256": "c0ae3d20396d4d671b5f1c068e9beaf39b406f70afc97b79c46715fe1bc3d977"
+        },
+        {
+          "path": "photo_python/libheif-30fc1b3ceee9088934615cbf4948eba3.dll",
+          "bytes": 2201088,
+          "sha256": "6223de1181ea35f394b380f2142be64406659ebf7026a2cb61d181c16e42ae9b"
+        }
+      ]
+    },
+    {
+      "id": "pillow-heif-wheel",
+      "version": "1.8.0 cp313 win_amd64",
+      "entry": "photo_wheels/pillow_heif-1.8.0-cp313-cp313-win_amd64.whl",
+      "requirements": "Offline installation source only for a matching Python ABI; no automatic install.",
+      "provenance": "Reference installation inventory; verify local files before use. Binaries are not distributed.",
+      "verified_files": [
+        {
+          "path": "photo_wheels/pillow_heif-1.8.0-cp313-cp313-win_amd64.whl",
+          "bytes": 6604416,
+          "sha256": "70161d9963702d94bbaa31b2e08e43f6fb3baffccfac8c9ec1d702f6ff620cde"
+        }
+      ]
+    },
+    {
+      "id": "editing-env",
+      "version": "Python 3.12.14",
+      "entry": "editing_env/Scripts/python.exe",
+      "version_args": [
+        "--version"
+      ],
+      "requirements": "Existing base interpreter referenced in pyvenv.cfg. Environment is machine-local, not portable.",
+      "packages": {
+        "comtypes": "1.4.17",
+        "pip": "25.0.1",
+        "pymediainfo": "7.0.1",
+        "uiautomation": "2.0.20"
+      },
+      "provenance": "Reference installation inventory; verify local files before use. Binaries are not distributed.",
+      "verified_files": [
+        {
+          "path": "editing_env/Scripts/python.exe",
+          "bytes": 277808,
+          "sha256": "0682311854725caa5aba8cdb8115a7aeeafdf76d3cec1355458f9ae267c2c5d7"
+        },
+        {
+          "path": "editing_env/Scripts/pip.exe",
+          "bytes": 108454,
+          "sha256": "096449acebe142c2c7328d581c421f0f07fc59459a0d940066517d378b6adcab"
+        },
+        {
+          "path": "editing_env/Scripts/pip3.exe",
+          "bytes": 108454,
+          "sha256": "096449acebe142c2c7328d581c421f0f07fc59459a0d940066517d378b6adcab"
+        },
+        {
+          "path": "editing_env/Scripts/pip3.12.exe",
+          "bytes": 108454,
+          "sha256": "096449acebe142c2c7328d581c421f0f07fc59459a0d940066517d378b6adcab"
+        },
+        {
+          "path": "editing_env/Scripts/clear_comtypes_cache.exe",
+          "bytes": 108452,
+          "sha256": "1cd01a5ddf04e062a832905a5f669ca639a2d243da82f5126ada56a4011deeb5"
+        }
+      ]
+    }
+  ]
+}

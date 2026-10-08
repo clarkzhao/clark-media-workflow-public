@@ -1,0 +1,49 @@
+# Installed tools and environments are local payloads, not repository sources.
+/nvencc_9.37/
+/shotcut/
+/photo_python/
+/photo_wheels/
+/editing_env/
+/local.paths.json
+/logs/
+/outputs/
+/backups/
+# Local planning notes are not published to GitHub.
+/docs/video-workflow-experiment.md
+__pycache__/
+*.py[cod]
+.venv/
+# Private project material and generated media must stay outside this repository.
+# Personal cover references remain local even when bundled with installed skills.
+/skills/clark-video-editing/assets/cover-style/
+voice_private/
+*.wav
+*.flac
+*.m4a
+*.mp3
+*.mp4
+*.mov
+*.heic
+*.heif
+*.safetensors
+*.ckpt
+*.zip
+*.7z
+*.whl
+*.partial
+
+# Machine configuration, credentials and local-only notes.
+.local/
+*.private.md
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+service-account*.json
+*.bundle

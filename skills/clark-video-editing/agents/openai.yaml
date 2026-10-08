@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clark 的个人剪辑"
+  short_description: "旅行视频剪辑、画质与字幕验收，支持封面创建和四种比例交付"
+  default_prompt: "使用 $clark-video-editing 按我的剪辑约定优化当前视频的口播与节奏。"

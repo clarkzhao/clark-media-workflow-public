@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clark 的口播与本地代配音"
+  short_description: "自然口播、本地音色参考与逐句代配音，支持读音修正、局部重做和试听验收"
+  default_prompt: "使用 $clark-spoken-delivery 给文案去 AI 味，并优化口播的快慢起伏，直接给我可用的成稿。"

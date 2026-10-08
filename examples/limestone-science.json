@@ -1,0 +1,80 @@
+{
+  "kind": "Fixed eight-second limestone explanation example; not a generic physics engine",
+  "base_image_size": [
+    1536,
+    864
+  ],
+  "duration_s": 8,
+  "fps": 30,
+  "frames": 240,
+  "preview": {
+    "composition": [
+      1920,
+      1080
+    ],
+    "overlay": [
+      1080,
+      780
+    ],
+    "position": [
+      800,
+      50
+    ]
+  },
+  "master": {
+    "composition": [
+      3840,
+      2160
+    ],
+    "overlay": [
+      2160,
+      1560
+    ],
+    "position": [
+      1600,
+      100
+    ]
+  },
+  "phases": [
+    {
+      "local_s": [
+        0,
+        2.48
+      ],
+      "label": "水流过石灰岩",
+      "emphasis": "Grey rock contact and blue directional arrows"
+    },
+    {
+      "local_s": [
+        2.48,
+        4.22
+      ],
+      "label": "钙被带进水里",
+      "emphasis": "Abstract dissolved-calcium dots move with the flow"
+    },
+    {
+      "local_s": [
+        4.22,
+        8
+      ],
+      "label": "慢慢沉积成钙华",
+      "emphasis": "A thin pale coating forms along the existing shore under suitable conditions"
+    }
+  ],
+  "qualifier": "条件合适时，逐渐沉积",
+  "semantics": {
+    "blue": "Water flow direction only, not a claim about why lake water looks blue",
+    "warm_flat_dots": "Abstract dissolved calcium signals, not visible metal balls or added pigment",
+    "pale_thin_coating": "Conditional calcium-carbonate deposition along the existing nearshore rim",
+    "grey_rock": "Limestone source contact, separately identified from the ivory deposit"
+  },
+  "scientific_boundary": "Conceptual, compressed-time and exaggerated-symbol illustration, not a measured lake section or explanation of every lake.",
+  "narration_policy": "Actual voice, transcript and alignment inputs stay in the private project. Retiming requires updating the drawing, not stretching audio.",
+  "new_topic_requirements": [
+    "Verify scientific claims",
+    "Select a suitable base",
+    "Redraw paths and label positions",
+    "Align stages to current narration",
+    "Review in scene context"
+  ]
+}
