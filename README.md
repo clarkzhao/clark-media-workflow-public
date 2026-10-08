@@ -1,6 +1,6 @@
 # Clark media workflow
 
-旅行视频项目共享的本地工具与运行库。Git 管理组件清单、使用说明、个人技能和维护脚本；GitHub 仓库为 [clarkzhao/clark-media-workflow](https://github.com/clarkzhao/clark-media-workflow)。模型、软件二进制和 Python 环境不随仓库分发。
+旅行视频项目共享的本地工具与运行库。Git 管理组件清单、使用说明、个人技能和维护脚本；公开仓库为 [clarkzhao/clark-media-workflow-public](https://github.com/clarkzhao/clark-media-workflow-public)。模型、软件二进制和 Python 环境不随仓库分发。
 
 ## 个人技能
 
