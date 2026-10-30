@@ -146,6 +146,16 @@
           "sha256": "1cd01a5ddf04e062a832905a5f669ca639a2d243da82f5126ada56a4011deeb5"
         }
       ]
+    },
+    {
+      "id": "media-revision-review",
+      "version": "1.0",
+      "entry": "scripts/media_review.py",
+      "runtime": "Python 3.11+ standard library; optional encoded-motion Adapter uses Python 3.12+ and requirements-motion-review.txt",
+      "requirements": "Per-project revision snapshot with build-time input hashes, fact bindings and scoped review records. No media edits, cloud requests or automatic dependency downloads.",
+      "documentation": "docs/media-review.md",
+      "provenance": "Core regression tests, tiny encoded motion fixtures and a local before/after motion regression verified. Automated declarations and ROI screening do not establish semantic correctness or user acceptance.",
+      "verified_files": []
     }
   ]
 }

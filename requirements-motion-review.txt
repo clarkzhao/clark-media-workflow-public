@@ -1,0 +1,5 @@
+# Optional motion-screening dependencies. No model weights or cloud clients.
+# Verified local combination; install only in an explicitly selected environment.
+av==18.1.0
+opencv-python-headless==5.0.0.93
+numpy==2.5.2
